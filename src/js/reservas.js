@@ -16,13 +16,13 @@ document.querySelector("#reservar").addEventListener("click", (event) => {
 
 
     let texto = 
-    `Olá, gostaria de fazer uma reserva, aí vão minhas informações:
-    \n Nome: ${nome},
-    \n Data: ${data},
-    \n Hora: ${hora},
-    \n Comemoração: ${evento},
-    \n Numero convidados: ${convidados},
-    \n Observações: ${obs}
+    `Olá, gostaria de fazer uma reserva, aí vão minhas informações:%0A
+     Nome: ${nome},%0A
+     Data: ${data},%0A
+     Hora: ${hora},%0A
+     Comemoração: ${evento},%0A
+     Numero convidados: ${convidados},%0A
+     Observações: ${obs}
     `
     console.log(texto)
 
